@@ -24,10 +24,7 @@ function Navbar({ isDarkMode, setisDarkMode }) {
 
   return (
     <>
-      <div
-        style={{ marginTop: "0.5rem" }}
-        className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden"
-      >
+      <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden">
         <Image src={assets.header_bg_color} alt="" className="w-full" />
       </div>
       <nav
@@ -37,7 +34,6 @@ function Navbar({ isDarkMode, setisDarkMode }) {
             ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20"
             : ""
         }`}
-        style={{ marginTop: "0.5rem" }}
       >
         <a href="#top">
           <Image

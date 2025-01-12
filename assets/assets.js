@@ -6,11 +6,21 @@ import edu_icon from "./edu-icon.png";
 import edu_icon_dark from "./edu-icon-dark.png";
 import project_icon from "./project-icon.png";
 import project_icon_dark from "./project-icon-dark.png";
+
 import vscode from "./vscode.png";
 import firebase from "./firebase.png";
 import figma from "./figma.png";
 import git from "./git.png";
 import mongodb from "./mongodb.png";
+
+import reactJS from "./reactJS.png";
+import node_js from "./node_js.png";
+import nextJs from "./nextJs.png";
+import motion from "./motion.png";
+
+
+
+
 import right_arrow_white from "./right-arrow-white.png";
 import logo from "./logo.png";
 import logo_dark from "./logo_dark.png";
@@ -46,11 +56,20 @@ export const assets = {
   edu_icon_dark,
   project_icon,
   project_icon_dark,
+
   vscode,
   firebase,
   figma,
   git,
   mongodb,
+
+  reactJS,
+  node_js,
+  nextJs,
+  motion,
+
+
+
   right_arrow_white,
   logo,
   logo_dark,
@@ -108,13 +127,13 @@ export const serviceData = [
     description: "Web development is the process of building, programming...",
     link: "",
   },
-  {
-    icon: assets.mobile_icon,
-    title: "Mobile app",
-    description:
-      "Mobile app development involves creating software for mobile devices...",
-    link: "",
-  },
+  // {
+  //   icon: assets.mobile_icon,
+  //   title: "Mobile app",
+  //   description:
+  //     "Mobile app development involves creating software for mobile devices...",
+  //   link: "",
+  // },
   {
     icon: assets.ui_icon,
     title: "UI/UX design",
@@ -122,12 +141,12 @@ export const serviceData = [
       "UI/UX design focuses on creating a seamless user experience...",
     link: "",
   },
-  {
-    icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
-    link: "",
-  },
+  // {
+  //   icon: assets.graphics_icon,
+  //   title: "Graphics design",
+  //   description: "Creative design solutions to enhance visual communication...",
+  //   link: "",
+  // },
 ];
 
 export const infoList = [
@@ -153,9 +172,13 @@ export const infoList = [
 ];
 
 export const toolsData = [
+  assets.reactJS,
   assets.vscode,
-  assets.firebase,
+  assets.node_js,
+  assets.nextJs,
+  assets.motion,
+  // assets.firebase,
   assets.mongodb,
-  assets.figma,
+  // assets.figma,
   assets.git,
 ];
